@@ -1,0 +1,47 @@
+.container {
+    max-width: 100%;
+    width: 793px;
+    height: 82px;
+    left: 0px;
+    top: 0px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.header {
+    width: 793px;
+    height: 82px;
+    left: 0px;
+    top: 0px;
+
+    background: #4A4F56;
+}
+
+h1, #bonapp-id  {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #FF8984;
+}
+
+.header-suptitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #FF8984;
+}
+
+.pickles + .oranges {
+    width: 534px;
+    height: 45px;
+    left: 129px;
+    top: 192px;
+
+    background: #88839E;
+}
