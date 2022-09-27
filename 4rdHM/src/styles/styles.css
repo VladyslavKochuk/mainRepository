@@ -1,47 +1,111 @@
-.container {
-    max-width: 100%;
-    width: 793px;
-    height: 82px;
-    left: 0px;
-    top: 0px;
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
 }
 
-li {
-    list-style-type: none;
+body {
+    margin: 0;
 }
 
-.header {
-    width: 793px;
-    height: 82px;
-    left: 0px;
-    top: 0px;
-
-    background: #4A4F56;
+.shoping-list-holder {
+    width: 100%;
+    max-width: 793px;
+    background-color: #3B3F45;
+    margin: 0 auto;
 }
 
-h1, #bonapp-id  {
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 28px;
+.shoping-list-holder .heading {
     text-align: center;
-
-    color: #FF8984;
-}
-
-.header-suptitle {
-    font-weight: 400;
+    padding: 19px 15px 12px;
     font-size: 16px;
     line-height: 19px;
-    text-align: center;
-
     color: #FF8984;
+    background-color: #4A4F56;
 }
 
-.pickles + .oranges {
-    width: 534px;
-    height: 45px;
-    left: 129px;
-    top: 192px;
+.shoping-list-holder .heading h1 {
+    font-size: 24px;
+    line-height: 28px;
+    color: #FF8984;
+    margin: 0 0 4px;
+}
 
-    background: #88839E;
+.shoping-list-form {
+    max-width: 534px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0 45px;
+}
+
+.form-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 45px;
+}
+
+.form-list li label {
+    display: block;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    padding: 12px 12px 14px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background-color: #88839E;
+    transition: ease-in-out 0.4s;
+}
+
+.form-list li label:hover {
+    border-color: #fff;
+    background-color: #625E77;
+     
+}
+
+.form-list li label::before {
+    display: inline-block;
+    content: '\2717';
+    width: 19px;
+    height: 19px;
+    background-color: #fff;
+    margin-right: 16px;
+    color: #fff;
+    transition: color ease-in-out 0.3s;
+    text-align: center;
+    font-size: 15px;
+}
+
+.form-list li:nth-child(even) label {
+    background: #7A7593;
+}
+
+.form-list input[type='checkbox'] {
+    display: none;
+}
+
+.form-list input[type='checkbox']:checked + label {
+    color: #9B96AC;
+    text-decoration: line-through;
+}
+
+.form-list input[type='checkbox']:checked + label::before {
+    content: '\2717';
+    color: #000;
+}
+
+.form-list li label span {
+    font-size: 11px;
+    line-height: 13px;
+}
+
+.btn {
+    background-color: #4A4F56;
+    font-size: 18px;
+    line-height: 21px;
+    display: inline-block;
+    width: 100%;
+    border: none;
+    border-radius: none;
+    padding: 12px 12px;
+    color: #FF8984;
 }
