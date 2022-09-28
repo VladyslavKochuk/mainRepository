@@ -100,12 +100,16 @@ body {
 
 .btn {
     background-color: #4A4F56;
-    font-size: 18px;
-    line-height: 21px;
-    display: inline-block;
     width: 100%;
-    border: none;
-    border-radius: none;
-    padding: 12px 12px;
-    color: #FF8984;
+    padding: 0px 16px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    justify-content: center;
+    align-items: center;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }

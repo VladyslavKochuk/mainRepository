@@ -1,113 +1,171 @@
-.navbar-list {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-    gap: 40px;
-
-    width: 496px;
-    height: 30px;
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    z-index: 0;
-
-    list-style-type: none;
-    margin: 0 auto;
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
-.main-title {
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 65px;
-
-    color: #070707;
-}
-
-.bio {
-    /* display: flex; */
-    position: absolute;
-    width: 970px;
-    height: 497px;
-    left: 235px;
-    top: 92px;
-}
-
-.about-me-title {
-    font-weight: 700;
-    font-size: 34px;
-    line-height: 46px;
-    /* text-align: center; */
-
-    color: #070707;
-}
-
-.about-me {
-    text-align: center;
-
-    position: absolute;
-    width: 970px;
-    height: 500px;
-    left: 235px;
-    top: 589px;
-
-    background: #F6F6F6;
-}
-
-.text {
-    font-weight: 400;
+body {
+    margin: 0;
     font-size: 18px;
     line-height: 25px;
     text-align: center;
-
     color: #070707;
 }
 
-.skills {
-    text-align: center;
-
-    position: absolute;
-    width: 970px;
-    height: 564px;
-    left: 235px;
-    top: 1089px;
+p {
+    margin: 0 0 30px;
 }
 
-/* .skills-title {
-    font-weight: 700;
+h1 {
+    font-size: 48px;
+    line-height: 65px;
+    margin: 0 0 50px;
+    text-align: left;
+}
+
+h2 {
     font-size: 34px;
     line-height: 46px;
-    text-align: center;
-
-    color: #070707;
-} */
-
-.prod-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    gap: 97px;
-
-    width: 970px;
-    height: 230px;
+    margin: 0 0 50px;
 }
 
-.portfolio {
-    position: absolute;
-    width: 970px;
-    height: 2268px;
-    left: 235px;
-    top: 1653px;
+h3 {
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #828282;
+    margin-bottom: 0 0 60px;
 }
 
-.portfolio-title, .contacts-title, .skills-title {
-    font-weight: 700;
-    font-size: 34px;
-    line-height: 46px;
-    text-align: center;
-
+a {
     color: #070707;
+    transition: color ease-in-out 0.3s;
+}
+
+a:hover {
+    color: #828282;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header .nav {
+    padding: 27px 0;
+    border-bottom: 1px solid #828282;
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0 -20px;
+    padding: 0;
+    text-align: center;
+}
+
+.nav-item {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav-link {
+    color: #828282;
+    text-decoration: none;
+}
+
+.nav-item.active .nav-link,
+.nav-link:hover {
+    color: #070707;
+    transition: color ease-in-out 0.3s;
+}
+
+.hero-section {
+    padding-top: 12px;
+}
+
+.about-section {
+     background-color: #F6F6F6;;
+     padding: 100px 0 70px;
+     text-align: center;
+}
+
+.about-section .text-holder {
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.skills-section {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.skills-section .title-holder {
+    margin-bottom: 50px;
+}
+
+.skills-section .img-holder {
+    margin: 0 auto 25px;
+    width: 80px;
+}
+
+.skills-section h3 {
+    max-width: 90px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 60px;
+}
+
+.title-holder h2 {
+    margin-bottom: 20px;
+}
+
+.row {
+    overflow: hidden; 
+    margin: 0 -48px;
+}
+
+.column {
+    width: 25%;
+    float: left;
+    padding: 0 48px;
+}
+
+.column.figma-col h3 {
+    margin-bottom: 80px;
+}
+
+.portfolio-section {
+    background-color: #E5E5E5;
+}
+
+.portfolio-section h2 {
+    padding-top: 100px;
+}
+
+.portfolio-section p {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.contacts-section .title-holder {
+    padding: 100px 0 70px;
+     text-align: center;
+}
+
+.btn {
+    background-color: #070707;
+    border-radius: 22px;
+    font-size: 18px;
+    line-height: 21px;
+    display: inline-block;
+    width: 180px;
+    height: 44px;
+    color: #fff;
+    padding: 0px 16px;
 }

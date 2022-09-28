@@ -8,78 +8,126 @@
     <title>Document</title>
 </head>
 <body>
-        <header>
-            <div class="navbar">
+        <header class="header">
+            <div class="container">
                 <nav>
-                    <ul class="navbar-list">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#aboutme">About Me</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#contacts">Contacts</a></li>
+                    <ul class="nav-list">
+                        <li class="nav-item active"><a href="#home" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="#aboutme" class="nav-link">About Me</a></li>
+                        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                        <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                        <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
         <main class="main">
-            <div>
-                <hr class="line" width="970"> 
-            </div>
-            <section class="bio">
-                <h1 class="main-title" id="home">Denis Novik</h1>
-                <img src="./src/img/bio-photo.jpg" alt="user photo" width="970" height="387">
-            </section>
-            <section class="about-me">
-                <h2 class="about-me-title" id="aboutme">About me</h2>
-                <div class="text">
-                    <p>Hi, I'm Denis – UX/UI designer from Minsk.
-                            I'm interested in design and everything connected with it.</p>
-                    <p>I'm studying at courses "Web and mobile design 
-                            interfaces" in IT-Academy.</p>
-                    <p>Ready to implement excellent projects
-                            with wonderful people.</p>
-                </div>
-            </section>
-            <section class="skills"> 
-                <h3 class="skills-title" id="skills">Skills</h3>
-                <span class="text">I work in such programs as</span>
-                <div class="prod-list">
-                    <div class="ps">
-                        <img src="./src/img/ps.png" alt="ps">
-                        <p>Adobe Photoshop</p>
-                        <img src="./src/img/rating-ps.png" alt="rating-ps">
-                    </div>
-                    <div class="ai">
-                        <img src="./src/img/ai.png" alt="ai">
-                        <p>Adobe Illustrator</p>
-                        <img src="./src/img/rating-ai.png" alt="rating-ai">
-                    </div>
-                    <div class="ae">
-                        <img src="./src/img/ae.png" alt="ae">
-                        <p>Adobe After Effects</p>
-                        <img src="./src/img/rating-ae.png" alt="rating-ae">
-                    </div>
-                    <div class="figma">
-                        <img src="./src/img/figma.png" alt="figma">
-                        <p>Figma</p>
-                        <img src="./src/img/rating-figma.png" alt="rating-figma">
+            <section class="hero-section">
+                <div class="container">
+                    <h1>Denis Novik</h1>
+                    <div class="img-holder">
+                        <img src="./src/img/bio-photo.jpg" alt="img description">
                     </div>
                 </div>
             </section>
-            <section class="portfolio">
-                <h3 class="portfolio-title" id="portfolio">Portfolio</h3>
-                <img src="./src/img/levis.png" alt="levis">
-                <a href="#"><p class="text">Online fashion store - Homepage</p></a>
-                <img src="./src/img/reebok.png" alt="reebok">
-                <a href="#"><p class="text">Reebok Store - Concept</p></a>
-                <img src="./src/img/braun.png" alt="braun">
-                <a href="#"><p class="text">Braun Landing Page - Concept</p></a>
+            <section class="about-section">
+                <div class="container">
+                    <h2>About me</h2>
+                    <div class="text-holder">
+                        <p>Hi, I'm Denis – UX/UI designer from Minsk.
+                                I'm interested in design and everything connected with it.</p>
+                        <p>I'm studying at courses "Web and mobile design 
+                                interfaces" in IT-Academy.</p>
+                        <p>Ready to implement excellent projects
+                                with wonderful people.</p>
+                    </div>
+                </div>
             </section>
-            <!-- <section class="contacts">
-                <h3 class="contacts-title" id="contacts">Contacts</h3>
-                <p class="text">Want to know more or just chat? 
-                    You are welcome!</p>
-            </section> -->
+            <section class="skills-section">
+                <div class="container">
+                    <div class="title-holder">
+                        <h2>Skills</h2>
+                        <span class="pseudo-title">I work in such programs as</span>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <div class="img-holder">
+                                <img src="./src/img/Ps.svg" alt="ps">
+                            </div>
+                            <h3>Adobe Photoshop</h3>
+                            <div class="raiting">
+                                <img src="./src/img/rating-ps.svg" alt="rating-ps">
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="img-holder">
+                                <img src="./src/img/Ai.svg" alt="ai">
+                            </div>
+                            <h3>Adobe Illustrator</h3>
+                            <div class="raiting">
+                                <img src="./src/img/rating-ai.svg" alt="rating-ai">
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="img-holder">
+                                <img src="./src/img/Ae.svg" alt="ae">
+                            </div>
+                            <h3>Adobe After Effects</h3>
+                            <div class="raiting">
+                                <img src="./src/img/rating-ae.svg" alt="rating-ae">
+                            </div>
+                        </div>
+                        <div class="column figma-col">
+                            <div class="img-holder">
+                                <img src="./src/img/Figma.svg" alt="figma">
+                            </div>
+                            <h3>Figma</h3>
+                            <div class="raiting">
+                                <img src="./src/img/rating-figma.svg" alt="rating-figma">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="portfolio-section">
+                <div class="container"></div>
+                    <h2>Portfolio</h2>
+                    <div class="img-holder">
+                        <img src="./src/img/levis.png" alt="levis">
+                    </div>
+                    <a href="#"><p>Online fashion store - Homepage</p></a>
+                    <div class="img-holder">
+                        <img src="./src/img/reebok.png" alt="reebok">
+                    </div>
+                    <a href="#"><p>Reebok Store - Concept</p></a>
+                    <div class="img-holder">
+                        <img src="./src/img/braun.png" alt="braun">
+                    </div>
+                    <a href="#"><p>Braun Landing Page - Concept</p></a>
+                </div>
+            </section>
+            <section class="contacts-section">
+                <div class="conteiner">
+                    <div class="title-holder">
+                        <h2>Contacts</h2>
+                        <span class="pseudo-title">Want to know more or just chat? 
+                            You are welcome!<span>
+                    </div>
+                    <div class="btn">
+                        <button>Send message</button>
+                    </div>
+                    <div class="img-holder">
+                        <img src="./src/img/linkedin.svg" alt="linkedin">
+                        <img src="./src/img/instagram.svg" alt="instagram">
+                        <img src="./src/img/behance.svg" alt="behance">
+                        <img src="./src/img/dribbble.svg" alt="dribbble">
+                    </div>
+                    <div class="go-socail">
+                        <h3>Like me on
+                            LinkedIn, Instagram, Behance, Dribble</h3>
+                    </div>
+                </div>
+            </section>
         </main>
 </body>
 </html>
