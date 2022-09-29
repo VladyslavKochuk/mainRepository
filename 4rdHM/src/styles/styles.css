@@ -41,7 +41,7 @@ body {
 .form-list {
     list-style: none;
     padding: 0;
-    margin: 0 0 45px;
+    margin: 0 0 44px;
 }
 
 .form-list li label {
@@ -90,7 +90,7 @@ body {
 
 .form-list input[type='checkbox']:checked + label::before {
     content: '\2717';
-    color: #000;
+    color: rgb(0, 0, 0);
 }
 
 .form-list li label span {
