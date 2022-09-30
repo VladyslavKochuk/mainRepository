@@ -244,14 +244,14 @@ a {
 
 .product-section .img-holder {
     float: left;
-    width: 50%;
+    width: 60%;
 }
 
 .product-section .img-holder .text-col {
     float: right;
     padding-right: 0;
     padding-left: 125px;
-    width: 50%;
+    width: 60%;
 }
 
 .product-section li {
