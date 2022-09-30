@@ -251,7 +251,7 @@ a {
     float: right;
     padding-right: 0;
     padding-left: 125px;
-    width: 60%;
+    width: 50%;
 }
 
 .product-section li {
@@ -270,15 +270,14 @@ a {
 .product-section .text-list .list::before {
     display: inline-block;
     content: '\2717';
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     background: #FF9900;
     border-radius: 10px;
     margin-right: 16px;
     color: #fff;
-    transition: color ease-in-out 0.3s;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .marketers-section {
