@@ -54,6 +54,12 @@ body {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+    color: #000;
+    margin: 0;
+}
+
 .container {
     max-width: 1230px;
     width: 100%;
@@ -91,6 +97,9 @@ body {
     line-height: 18px;
     text-align: center;
     letter-spacing: 0.04em;
+    height: 2cm;
+    display: flex;
+    align-items: center
 }
 
 .logo-title {
