@@ -1,0 +1,177 @@
+* ,
+::before ,
+::after {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Francois One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+h2 {
+    font-family: 'Francois One', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+p {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    color: #000000;
+}
+
+header .nav-list li {
+    list-style: none;
+    font-family: 'Staatliches', cursive;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.main .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 785px;
+}
+
+aside {
+    position: sticky;
+    width: 450px;
+    padding-right: 40px;
+}
+
+.main .container {
+    background-repeat: no-repeat;
+    background-size: 660px;
+    background-position-x: 100%;
+}
+
+.nav-list-aside li {
+    list-style: none;
+    margin-left: -40px;
+    margin-bottom: 80px;
+    border-bottom: 1px solid #BDBDBD;
+    max-width: 370px;
+}
+
+.nav-item-aside {
+    font-family: 'Francois One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.header .container {
+    position: relative;
+}
+
+img {
+    position: absolute;
+    left: 1200px;
+    top: 10px;
+}
+
+.nav-item-af::after {
+    content: '/';
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    margin: 0;
+}
+
+.container {
+    max-width: 1470px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 17px 0;
+}
+
+.header .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+header .nav-list {
+    list-style: none;
+    padding: 9px 0;
+    margin: 0;
+    margin: 0 -10px;
+}
+
+.nav-item, .nav-item-af {
+    display: inline-block;
+}
+
+.eng {
+    padding-right: 50px;
+    font-family: 'Tourney';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 22px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    height: 2cm;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center
+}
+
+.topline {
+    position: absolute;
+    width: 100px;
+    height: 8px;
+    background: #000000;
+    margin-bottom: 20px;
+    border-style: none;
+}
+
+.chapter {
+    font-family: 'Farro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+
+mark {
+    background-color: rgb(175, 175, 175);
+}

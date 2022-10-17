@@ -199,16 +199,24 @@ a {
     margin: 0 auto;
 }
 
-.design-tools .row {
-    /* overflow: hidden; */
+/* .design-tools .row {
+    overflow: hidden;
     display: flex;
     flex-wrap: wrap;
     margin: 0 -20px;
+} */
+
+/* .design-tools .col {
+    width: 25%;
+    float: left;
+    padding: 0 20px;
+} */
+
+.design-tools .row {
+    margin: 0 -20px;
 }
 
-.design-tools .col {
-    width: 25%;
-    /* float: left; */
+.design-tools .col-3 {
     padding: 0 20px;
 }
 
