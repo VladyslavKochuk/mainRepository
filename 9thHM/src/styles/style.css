@@ -1,0 +1,219 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1470px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: 'Delius Unicase';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+
+.text-holder {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+    opacity: 0;
+}
+
+.img-holder:hover .text-holder {
+    opacity: 1;
+}
+
+.text-holder-item-1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.text-holder-item-2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #E0E0E0;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.grid-container-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 30px;
+    grid-template-areas: 
+        "img-holder-1 img-holder-2 img-holder-2"
+        "img-holder-3 img-holder-3 img-holder-4"
+        "img-holder-5 img-holder-6 img-holder-6"
+    ;
+}
+
+.grid-container-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    grid-template-areas: 
+        "img-holder-1 img-holder-2 img-holder-2"
+        "img-holder-3 img-holder-3 img-holder-4"
+        "img-holder-3 img-holder-3 img-holder-4"
+        "img-holder-5 img-holder-5 img-holder-6"
+    ;
+}
+
+.grid-container-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    grid-template-areas: 
+        "img-holder-1 img-holder-2 img-holder-3"
+        "img-holder-4 img-holder-2 img-holder-5"
+        "img-holder-6 img-holder-7 img-holder-5"
+        "img-holder-6 img-holder-8 img-holder-8"
+        "img-holder-9 img-holder-9 img-holder-10"
+    ;
+}
+
+.img-holder {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.img-holder:hover img {
+    transform: scale(1.1);
+}
+
+.img-holder:hover .btn-list {
+    opacity: 1;
+}
+
+.img-holder::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background: linear-gradient(0deg, #241F24 0%, rgba(91, 91, 91, 0.447552) 34.11%, rgba(187, 186, 192, 0.26) 62.5%);
+    transform: all ease-in-out 0.3ms;
+}
+
+.img-holder:hover::before {
+    background: linear-gradient(0deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%);
+    transform: all ease-in-out 0.3ms;
+}
+
+.btn-list {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    transition: opacity ease-in-out 0.3ms;
+    opacity: 0;
+    z-index: 2;
+}
+
+.btn-list a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(224, 224, 224, 0.5);
+    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+    transition: background-color ease-in-out 0.3ms;
+    text-decoration: none;
+}
+
+i {
+    color: #4F4F4F;;
+    text-decoration: none;
+}
+
+.btn-list a:hover {
+    background-color: #e0e0e0;
+}
+
+.btn-list a .icon {
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: gray;
+}
+
+.img-holder-1 {
+    grid-area: img-holder-1;
+}
+
+.img-holder-2 {
+    grid-area: img-holder-2;
+}
+
+.img-holder-3 {
+    grid-area: img-holder-3;
+}
+
+.img-holder-4 {
+    grid-area: img-holder-4;
+}
+
+.img-holder-5 {
+    grid-area: img-holder-5;
+}
+
+.img-holder-6 {
+    grid-area: img-holder-6;
+}
+
+.img-holder-7 {
+    grid-area: img-holder-7;
+}
+
+.img-holder-8 {
+    grid-area: img-holder-8;
+}
+
+.img-holder-9 {
+    grid-area: img-holder-9;
+}
+
+.img-holder-10 {
+    grid-area: img-holder-10;
+}
