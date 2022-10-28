@@ -1,0 +1,36 @@
+.authentication-holder {
+    text-align: center;
+    margin-left: -110px;
+    padding-top: 10px;
+
+    .authentication-link {
+        list-style: none;
+        display: inline-flex;
+
+        .authentication-item {
+            padding-right: 20px;
+
+            a {
+                text-decoration: none;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 22px;
+                text-align: right;
+                letter-spacing: -0.2px;
+                color: #545454;
+            }
+
+            a:hover {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 22px;
+                letter-spacing: -0.1px;
+                color: #007BFF;
+            }
+        }
+    }
+}
