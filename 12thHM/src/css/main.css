@@ -1,0 +1,241 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+body .heading .img-holder {
+  padding: 15px 0;
+}
+body .heading span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #7690A8;
+}
+body .container {
+  max-width: 1470px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+body h1 {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: 0.2px;
+  color: #16133D;
+  padding-bottom: 14px;
+  margin-top: -5px;
+}
+
+hr {
+  background-color: #EFEEF3;
+  width: 1440px;
+  opacity: 0.1;
+}
+
+.windows-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 30px;
+  width: 1170px;
+  padding-bottom: 100px;
+}
+
+.span-text-holder {
+  padding-top: 100px;
+  padding-bottom: 15px;
+}
+
+.window-holder {
+  width: 370px;
+  height: 340px;
+  border-radius: 8px;
+  padding-top: 40px;
+  background: #FFFFFF;
+  border: 1px solid #E5EAF4;
+  border-radius: 8px;
+  padding: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.window-holder:hover {
+  border: 1px solid #3DB370;
+  border-radius: 8px;
+}
+.window-holder:hover .megaphone {
+  background-position: -6px -62px;
+}
+.window-holder:hover .building {
+  background-position: -96px -62px;
+}
+.window-holder:hover .phone {
+  background-position: -176px -62px;
+}
+.window-holder .megaphone {
+  background-image: url("/12thHM/src/img/icons-sprites.svg");
+  display: inline-block;
+  width: 65px;
+  height: 65px;
+  background-position: -6px -6px;
+  border: 1px solid rgba(21, 101, 216, 0.1);
+  border-radius: 16px;
+  padding-bottom: 30px;
+}
+.window-holder .building {
+  background-image: url("/12thHM/src/img/icons-sprites.svg");
+  display: inline-block;
+  width: 65px;
+  height: 65px;
+  background-position: -96px -6px;
+  border: 1px solid rgba(21, 101, 216, 0.1);
+  border-radius: 16px;
+  padding-bottom: 30px;
+}
+.window-holder .phone {
+  background-image: url("/12thHM/src/img/icons-sprites.svg");
+  display: inline-block;
+  width: 65px;
+  height: 65px;
+  background-position: -176px -6px;
+  border: 1px solid rgba(21, 101, 216, 0.1);
+  border-radius: 16px;
+  padding-bottom: 30px;
+}
+.window-holder h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 21px;
+  letter-spacing: 0.2px;
+  color: #16133D;
+  padding-top: 10px;
+}
+.window-holder p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #16133D;
+  width: 275px;
+  height: 80px;
+}
+.window-holder a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #3DB370;
+  text-decoration: none;
+}
+
+.footer {
+  background: #16133D;
+}
+.footer .img-holder {
+  padding: 40px 0 40px 0;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.list .icon-holder {
+  background: #EFEEF3;
+  border-radius: 5px;
+  width: 38px;
+  height: 38px;
+  margin: 0px 15px 40px -3px;
+}
+
+.icon-instagram {
+  position: relative;
+  bottom: -9px;
+  right: -9px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #0D0D0D;
+}
+.icon-instagram:hover {
+  color: #3DB370;
+}
+
+.icon-facebook {
+  position: relative;
+  bottom: -9px;
+  right: -9px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #0D0D0D;
+}
+.icon-facebook:hover {
+  color: #3DB370;
+}
+
+.icon-github {
+  position: relative;
+  bottom: -9px;
+  right: -9px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #0D0D0D;
+}
+.icon-github:hover {
+  color: #3DB370;
+}
+
+.icon-dribbble {
+  position: relative;
+  bottom: -9px;
+  right: -9px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #0D0D0D;
+}
+.icon-dribbble:hover {
+  color: #3DB370;
+}
+
+.icon-twitter {
+  position: relative;
+  bottom: -9px;
+  right: -9px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #0D0D0D;
+}
+.icon-twitter:hover {
+  color: #3DB370;
+}
+
+/* mixin usage */
+/*--------------------------------
+	Responsive ratio
+	Used for creating scalable elements that maintain the same ratio
+	example:
+	.element {
+		@include responsive-ratio(400, 300);
+	}
+*/
