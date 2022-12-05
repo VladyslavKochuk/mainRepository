@@ -1,0 +1,663 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 52px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: -32.16px;
+  margin-bottom: 8px;
+}
+
+.container {
+  max-width: 1950px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+.header .container {
+  background-color: #5373FD;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.header span {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.logo-holder {
+  padding: 32px 0px 32px 300px;
+}
+
+.nav-list {
+  padding-right: 300px;
+}
+.nav-list .nav-item {
+  display: inline-block;
+  padding-right: 40px;
+}
+.nav-list .nav-item a:hover {
+  border-bottom: 1px solid #FFFFFF;
+  opacity: 75%;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+}
+
+.main .hero-section .container {
+  background-image: url(../img/hero_background.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1050px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.main .hero-section p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0.31em;
+  color: #FFFFFF;
+}
+.main .hero-section .text-holder {
+  text-align: center;
+  padding-bottom: 58px;
+}
+.main .hero-section a {
+  padding-bottom: 10px;
+}
+.main .hero-section button {
+  position: absolute;
+  width: 140px;
+  height: 53px;
+  left: calc(50% - 69.5px + 255px);
+  background-color: #5373FD;
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: 4px solid #FFFFFF;
+}
+.main input {
+  width: 650px;
+  height: 54px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2em;
+  color: #999999;
+  padding-left: 35px;
+  outline: none;
+}
+.main .search-holder {
+  position: relative;
+}
+.main .scroll-holder {
+  position: absolute;
+  top: 800px;
+  max-width: 100%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  color: #FFFFFF;
+}
+.main .icon-search:before {
+  content: "\e900";
+  padding-right: 12px;
+  color: #FFFFFF;
+}
+.main .icon-chevron-thin-down:before {
+  content: "\e901";
+  color: #FFFFFF;
+  font-weight: bolder;
+}
+
+.whychooseus .container {
+  background-image: url(../img/why_background.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 125px;
+  padding-bottom: 125px;
+  margin-top: -1px;
+}
+.whychooseus .container-algo {
+  max-width: 1950px;
+  padding: 0 15px;
+  margin: 0 auto;
+  height: 306px;
+  background-color: #333333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+.whychooseus .text-holder {
+  width: 700px;
+  padding-right: 135px;
+}
+.whychooseus .text-holder h2 {
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.whychooseus .text-holder p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+}
+.whychooseus .text-holder .btn-holder {
+  padding-top: 30px;
+}
+.whychooseus .text-holder .main-btn {
+  width: 213px;
+  height: 60px;
+  background: linear-gradient(45deg, #486BFE 42%, #5373FD 42%);
+  border-radius: 0;
+  border-color: #5373FD;
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.whychooseus .text-holder .main-btn:hover {
+  background: linear-gradient(45deg, #5373FD 42%, #486BFE 42%);
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+}
+.whychooseus img {
+  max-width: 100%;
+}
+.whychooseus .img-window {
+  width: 424px;
+  height: 456px;
+}
+.whychooseus .img-window .img-holder-river {
+  padding-right: 75px;
+  padding-bottom: 10px;
+}
+.whychooseus .img-window .img-holder-mountains {
+  padding-left: 75px;
+}
+.whychooseus .algo-holder {
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  padding-top: 110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 364px;
+  height: 139px;
+  padding-right: 25px;
+}
+.whychooseus .algo-holder span {
+  padding-top: 25px;
+}
+.whychooseus .algo-holder .icon-search:before {
+  content: "\e900";
+  font-size: 64px;
+  color: #5373FD;
+}
+.whychooseus .algo-holder .icon-checkmark-outline:before {
+  content: "\e902";
+  font-size: 64px;
+  color: #FF6363;
+}
+.whychooseus .algo-holder .icon-thumbs-up:before {
+  content: "\e904";
+  position: relative;
+  font-size: 64px;
+  color: #00A2FF;
+}
+
+.container-left {
+  max-width: 1950px;
+  padding: 0 15px;
+  margin: 0 auto;
+  height: 700px;
+  background-image: url(../img/house_background.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.container-left .text-holder {
+  width: 650px;
+  height: 400px;
+  background: rgba(35, 35, 35, 0.9);
+  margin-left: 300px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 44px;
+}
+.container-left .text-holder span {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+}
+.container-left .text-holder h3 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.container-left .text-holder p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  padding-bottom: 24px;
+}
+.container-left .text-holder .main-btn {
+  width: 213px;
+  height: 60px;
+  background: linear-gradient(45deg, #486BFE 42%, #5373FD 42%);
+  border-radius: 0;
+  border-color: #5373FD;
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.container-left .text-holder .main-btn:hover {
+  background: linear-gradient(45deg, #5373FD 42%, #486BFE 42%);
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+}
+
+.container-right {
+  max-width: 1950px;
+  padding: 0 15px;
+  margin: 0 auto;
+  height: 700px;
+  background-image: url(../img/ocean_background.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+.container-right .text-holder {
+  width: 650px;
+  height: 400px;
+  background: rgba(35, 35, 35, 0.9);
+  margin-right: 300px;
+  padding-left: 32px;
+  padding-left: 32px;
+  padding-top: 44px;
+}
+.container-right .text-holder span {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+}
+.container-right .text-holder h3 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.container-right .text-holder p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  padding-bottom: 24px;
+}
+.container-right .text-holder .main-btn {
+  width: 213px;
+  height: 60px;
+  background: linear-gradient(45deg, #486BFE 42%, #5373FD 42%);
+  border-radius: 0;
+  border-color: #5373FD;
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.container-right .text-holder .main-btn:hover {
+  background: linear-gradient(45deg, #5373FD 42%, #486BFE 42%);
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+}
+
+.reviews .container {
+  background-image: url(../img/reviews_background.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 700px;
+  max-width: 1950px;
+  padding: 0 15px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.reviews h2 {
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.reviews h3 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding-top: 28px;
+}
+.reviews p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+}
+.reviews img {
+  width: 100%;
+}
+.reviews .img-holder {
+  max-width: 100%;
+}
+.reviews .text-holder {
+  width: 885px;
+  padding-bottom: 48px;
+  padding-left: 60px;
+  padding-right: 65px;
+  background-color: #333333;
+}
+.reviews .review-holder {
+  width: 1320px;
+  height: 274px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.reviews .icon-quote-left:before {
+  content: "\e903";
+  color: #5373FD;
+}
+
+.footer .container {
+  background-color: #000000;
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  max-width: 1950px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.footer h3 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding-top: 60px;
+}
+.footer span {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2em;
+  color: #FFFFFF;
+}
+.footer span:hover {
+  color: #5373FD;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+}
+.footer .social-holder {
+  padding-top: 20px;
+  padding-bottom: 80px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  gap: 32px;
+}
+.footer .icon-facebook:before {
+  content: "\ea91";
+  font-size: 36px;
+}
+.footer .icon-twitter:before {
+  content: "\ea93";
+  font-size: 36px;
+}
+.footer .icon-youtube:before {
+  content: "\ea9d";
+  font-size: 36px;
+}
+.footer .icon-linkedin:before {
+  content: "\eac9";
+  font-size: 36px;
+}
+.footer .icon-pinterest:before {
+  content: "\ead1";
+  font-size: 36px;
+}
